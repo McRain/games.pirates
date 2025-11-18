@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/pirate.pub/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/pirate.pub/style.css">
+    <title>PixiJS - Template</title>
+    <style>
+        /* Стили для мобильных контролов */
+        #touch-controls {
+            /* Уже добавлены через JS, но можно дополнить */
+        }
+
+        #joystick:active {
+            background: rgba(255, 255, 255, 0.4);
+        }
+
+        #shoot-button:active {
+            background: rgba(255, 100, 100, 0.6) !important;
+            transform: scale(0.95);
+        }
+
+        /* Отключаем выделение текста на мобилках */
+        * {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* Адаптация для разных размеров экрана */
+        @media (max-width: 768px) {
+            #touch-controls {
+                padding: 0 10px;
+                bottom: 10px;
+            }
+
+            #joystick,
+            #shoot-button {
+                width: 70px;
+                height: 70px;
+            }
+
+            #joystick-handle {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    </style>
+  <script type="module" crossorigin src="/pirate.pub/assets/index-CW1t70h3.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div id="pixi-container">
+            <div id="ui">
+                <div>⚓ Управление: WASD - движение, ПРОБЕЛ - стрельба</div>
+                <div>📊 Скорость: <span id="speed">0</span> узлов</div>
+                <div>🧭 Координаты: <span id="coordinates">0,0</span></div>
+                <div>🎯 Пушки: <span id="cannonStatus">Готовы</span></div>
+                <div id="playerHealth"></div>
+                <div id="botHealth"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

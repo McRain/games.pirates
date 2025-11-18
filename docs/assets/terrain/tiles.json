@@ -1,0 +1,201 @@
+{
+    "frames": {
+        "island_t_l.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_t_c.png": {
+            "frame": {
+                "x": 64,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_t_r.png": {
+            "frame": {
+                "x": 128,
+                "y": 0,
+                "w": 63,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_c_l.png": {
+            "frame": {
+                "x": 0,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_c_c.png": {
+            "frame": {
+                "x": 64,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_c_r.png": {
+            "frame": {
+                "x": 128,
+                "y": 64,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_b_l.png": {
+            "frame": {
+                "x": 0,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_b_c.png": {
+            "frame": {
+                "x": 64,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        },
+        "island_b_r.png": {
+            "frame": {
+                "x": 128,
+                "y": 128,
+                "w": 64,
+                "h": 64
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 169,
+                "h": 226
+            },
+            "sourceSize": {
+                "w": 175,
+                "h": 240
+            }
+        }
+    },
+    "animations": {},
+    "meta": {
+        "image": "tiles_sheet.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1024,
+            "h": 384
+        },
+        "scale": "1",
+        "colliders":[
+            {
+                "id":"islandid",
+                "x":0,
+                "y":0
+            }
+        ]
+    }
+}
