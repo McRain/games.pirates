@@ -8,50 +8,35 @@
     <link rel="stylesheet" href="/style.css">
     <title>PixiJS - Template</title>
     <style>
-        /* Стили для мобильных контролов */
-        #touch-controls {
-            /* Уже добавлены через JS, но можно дополнить */
+        /* Стили для зон джойстика */
+        #joystick {
+            position: relative;
         }
 
-        #joystick:active {
-            background: rgba(255, 255, 255, 0.4);
+        /* Анимация активации зон */
+        #joystick:active .joystick-zone {
+            opacity: 0.3 !important;
         }
 
-        #shoot-button:active {
-            background: rgba(255, 100, 100, 0.6) !important;
-            transform: scale(0.95);
-        }
-
-        /* Отключаем выделение текста на мобилках */
-        * {
-            -webkit-touch-callout: none;
-            -webkit-user-select: none;
-            -khtml-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        /* Адаптация для разных размеров экрана */
-        @media (max-width: 768px) {
-            #touch-controls {
-                padding: 0 10px;
-                bottom: 10px;
-            }
-
-            #joystick,
-            #shoot-button {
-                width: 70px;
-                height: 70px;
+        /* Адаптация для маленьких экранов */
+        @media (max-width: 480px) {
+            #joystick {
+                width: 100px;
+                height: 100px;
             }
 
             #joystick-handle {
                 width: 35px;
                 height: 35px;
             }
+
+            #shoot-button {
+                width: 70px;
+                height: 70px;
+            }
         }
     </style>
-  <script type="module" crossorigin src="/assets/index-8ZegYSxs.js"></script>
+  <script type="module" crossorigin src="/assets/index-j9kLnBgg.js"></script>
 </head>
 
 <body>
